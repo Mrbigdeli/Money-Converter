@@ -1,0 +1,63 @@
+.App-Comp-Container {
+  background-color: #aaa;
+  width: 50%;
+  height: 50%;
+  margin: 150px auto 0px;
+  border-radius: 15px;
+}
+#DollarToRial-Comp-ShowValue {
+  background-color: #ccc;
+  text-align: center;
+  width: 25%;
+  margin: 0px auto 0px;
+  border: 1px solid;
+}
+.DollarToRial-Comp-Header4 {
+  text-align: center;
+}
+.DollarToRial-Comp-ConvertButton {
+  width: 30%;
+  position: relative !important;
+  left: 36%;
+}
+#App-Comp-ExchangeType-Button {
+  width: 100%;
+}
+.DollarToRial-Comp-PriceButton-Container {
+  display: inline-flex;
+  width: 33%;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 240px;
+}
+@media screen and (max-width: 480px) {
+  .App-Comp-Container {
+    background-color: #aaa;
+    width: 80%;
+    height: 50%;
+    margin: 150px auto 0px;
+    border-radius: 15px;
+    position: relative;
+  }
+  .DollarToRial-Comp-ConvertButton {
+    width: 60%;
+    left: 60px;
+  }
+}
+@media screen and (min-width: 480.1px) and (max-width: 540px) {
+  .App-Comp-Container {
+    background-color: #aaa;
+    width: 80%;
+    height: 50%;
+    margin: 150px auto 0px;
+    border-radius: 15px;
+    position: relative;
+  }
+  .DollarToRial-Comp-ConvertButton {
+    width: 50%;
+    left: 115px;
+  }
+}
